@@ -6,6 +6,8 @@ var TheGame = {
         game.load.spritesheet('dude','assets/dude.png',32,48);
     },
     create: function() {
+        score = 0;
+        
         game.physics.startSystem(Phaser.Physics.ARCADE);
 
         game.add.sprite(0,0,'sky');
