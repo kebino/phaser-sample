@@ -46,7 +46,7 @@ var TheGame = {
             var star = stars.create(i * 70, 0, 'star');
 
             //  Let gravity do its thing
-            star.body.gravity.y = 6;
+            star.body.gravity.y = 160;
 
             //  This just gives each star a slightly random bounce value
             star.body.bounce.y = 0.7 + Math.random() * 0.2;
